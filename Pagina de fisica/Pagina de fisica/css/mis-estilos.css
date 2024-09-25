@@ -1,0 +1,49 @@
+
+
+.img-fluid{
+    height: 100%;
+}
+/*background-image: url("https://m.media-amazon.com/images/I/81mvFjGlZNL.jpg");*/
+
+#portfolio{
+    background-color: rgb(138, 32, 32);
+}
+
+body {
+    background-color: black;
+    color: white; /* Añade esto para que el título sea blanco */
+}
+.card {
+    background-color: red;
+}
+.btn {
+    background-color: black;
+    color: white;
+}
+
+.fa-brands,.fa-facebook-f{
+    color: black;
+}
+.ifa-brands,.fa-twitter{
+    color: black;
+}
+.fa-brands,.fa-square-instagram{
+    color: black;
+}
+
+
+        h1 {
+            color: #eeeeee;
+        }
+        .formula {
+            font-size: 20px;
+            
+            padding: 15px;
+            border: 1px ;
+            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+        .formula span {
+            font-weight: bold;
+            color: #e6e6e6;
+        }
