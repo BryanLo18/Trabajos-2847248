@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Física - Movimiento</title>
+    <link href="styles.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- MathJax for formulas -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+<!-- Menú de navegación -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Física</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#movimiento-uniforme">Movimiento Uniforme</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#movimiento-uniformemente-acelerado">Movimiento Uniformemente Acelerado</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#caida-libre">Caída Libre</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Sección: Movimiento Uniforme -->
+<section id="movimiento-uniforme" class="container mt-5">
+  <div class="row">
+    <div class="col-lg-12">
+      <h2 class="text-center mb-4">Movimiento Uniforme</h2>
+      <p class="lead">El <strong>Movimiento Uniforme</strong> es un tipo de movimiento en el que un objeto se desplaza con velocidad constante, es decir, recorre distancias iguales en tiempos iguales.</p>
+      <h3>Fórmulas:</h3>
+      <div class="formula">
+        \[ v = \frac{d}{t} \]
+      </div>
+      <p><strong>Donde:</strong></p>
+      <ul>
+        <li><strong>v:</strong> Velocidad (constante)</li>
+        <li><strong>d:</strong> Distancia recorrida</li>
+        <li><strong>t:</strong> Tiempo</li>
+      </ul>
+      <h3>Ejemplo:</h3>
+      <p>Un coche recorre 100 kilómetros en 2 horas. ¿Cuál es su velocidad?</p>
+      <p><strong>Solución:</strong> Usamos la fórmula \( v = \frac{d}{t} \).</p>
+      <p>\[ v = \frac{100 \, \text{km}}{2 \, \text{h}} = 50 \, \text{km/h} \]</p>
+    </div>
+  </div>
+</section>
+
+<!-- Sección: Movimiento Uniformemente Acelerado -->
+<section id="movimiento-uniformemente-acelerado" class="container mt-5">
+  <div class="row">
+    <div class="col-lg-12">
+      <h2 class="text-center mb-4">Movimiento Uniformemente Acelerado</h2>
+      <p class="lead">El <strong>Movimiento Uniformemente Acelerado (MRUA)</strong> se caracteriza por una aceleración constante, lo que implica un cambio de velocidad de manera uniforme.</p>
+      <h3>Fórmulas:</h3>
+      <div class="formula">
+        \[ V_f = V_0 + a \cdot t \]
+      </div>
+      <div class="formula">
+        \[ x = V_0 \cdot t + \frac{1}{2} \cdot a \cdot t^2 \]
+      </div>
+      <div class="formula">
+        \[ V_f^2 = V_0^2 + 2 \cdot a \cdot x \]
+      </div>
+      <h3>Ejemplo:</h3>
+      <p>Un coche que parte desde el reposo (velocidad inicial cero) adquiere una aceleración constante de \( 3 \, \text{m/s}^2 \) durante 5 segundos. ¿Cuál es su velocidad final?</p>
+      <p><strong>Solución:</strong> Usamos la fórmula \( V_f = V_0 + a \cdot t \).</p>
+      <p>\[ V_f = 0 + 3 \cdot 5 = 15 \, \text{m/s} \]</p>
+    </div>
+  </div>
+</section>
+
+<!-- Sección: Caída Libre -->
+<section id="caida-libre" class="container mt-5 mb-5">
+  <div class="row">
+    <div class="col-lg-12">
+      <h2 class="text-center mb-4">Caída Libre</h2>
+      <p class="lead">La <strong>Caída Libre</strong> es un tipo de movimiento uniformemente acelerado donde la única fuerza que actúa sobre el cuerpo es la gravedad.</p>
+      <h3>Fórmulas:</h3>
+      <div class="formula">
+        \[ v = g \cdot t \]
+      </div>
+      <div class="formula">
+        \[ h = \frac{1}{2} \cdot g \cdot t^2 \]
+      </div>
+      <p><strong>Donde:</strong></p>
+      <ul>
+        <li><strong>v:</strong> Velocidad del cuerpo en caída libre</li>
+        <li><strong>g:</strong> Aceleración de la gravedad (\( 9.8 \, \text{m/s}^2 \))</li>
+        <li><strong>t:</strong> Tiempo de caída</li>
+        <li><strong>h:</strong> Altura desde la cual cae el cuerpo</li>
+      </ul>
+      <h3>Ejemplo:</h3>
+      <p>¿Qué velocidad tendrá un objeto que cae libremente después de 3 segundos?</p>
+      <p><strong>Solución:</strong> Usamos la fórmula \( v = g \cdot t \).</p>
+      <p>\[ v = 9.8 \cdot 3 = 29.4 \, \text{m/s} \]</p>
+    </div>
+  </div>
+</section>
+
+<!-- Bootstrap JS y dependencias -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="scripts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
