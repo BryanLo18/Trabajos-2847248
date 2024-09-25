@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.imagen1{
+    width: 70%;
+    text-align: center;
+    
+}
+.j{
+    text-align: center;
+}
+
+
+.imagen2{
+    width: 100%;
+    text-align: center;
+  
+}
+.imagen3{
+    width: 100%;
+    margin-left: 50px;
+    text-align: center;
+    margin-right: 50px;
+   
+}
+.contenedor1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.contenedor2{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.div1{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 1em;
+}
+
+.cabeza{
+    display: flex;
+    padding-left: 70%;    
+    margin-right: 10px;
+    background-color: gray;
+    width: 100%;
+    
+}
+
+.cabeza a{
+    text-align: right;
+    margin-left: 20%;
+}
+
+.ultima{
+        display: flex;
+
+        width: 100%;
+        margin-left: 2em;
+        margin-right: 2em;
+}
+
+.links{
+        margin-left: 50px;
+        margin-right: 50px;
+}
+
+.primero{
+    display: flex;
+    width: 100%;
+    
+
+
+}
+
+.m{
+    text-align: center;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        background-color: yellow;
+    }
+    .contenedor2{
+        display: inline-block;
+       align-items: center;
+       justify-content: center;
+      
+    }
+    .div1{
+        width: 40%;
+    }
+    .imagen1{
+        display: none;
+    }
+    .ultima{
+        display: flex;
+        flex-direction: column;
+    } .imagen3{
+        width: 50%;
+        
+    } .menu{
+        display: none;
+    }.cabeza{
+        text-align:left ;
+        width: 20%;
+    }.m{
+        text-align: left;
+        margin-left: 0.5em;
+    }.links{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width:600px) {
+    body{
+        background-color: rgb(255, 0, 0);
+    }
+    .contenedor2{
+        display: inline-block;
+       align-items: center;
+       justify-content: center;
+      
+    }.contenedor1{
+     display: flex;
+     width: 100%;
+     justify-content: space-between;
+    }
+}
+
+.links{
+    margin: 0;
+}

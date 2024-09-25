@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-align: center;
+}
+
+.col{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 1em;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo{
+    background: rgba(168, 162, 162, 0.641);
+    font-size: 2em;
+    color: black;
+}
+
+.loguito{
+    text-align: left;
+}
+
+nav{
+    background: black;
+    padding: 0.5em;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 2em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+header img {
+    width: 80%;
+}
+
+.figura{
+    width: 35%;
+}
+
+.texto{
+    width: 55%;
+    text-align: left;
+    margin-left: 1em;
+}
+
+.figura, .texto{
+    display: inline-block;
+    vertical-align: top;
+}
+

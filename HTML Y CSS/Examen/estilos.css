@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor1{
+    background-color: antiquewhite;
+    display: flex;
+}
+.imagen1{
+    width: 500px;
+    margin-left: 500px;
+    margin-bottom: 100px;
+    border-radius: 60px 20px 5px 90px;
+    height: 500px ;
+    
+    
+}
+.subcontenedor1 h1{
+    margin: 30px 50px 20px 50px;
+}
+.subcontenedor1 h2{
+    margin: 20px 10px 20px 50px;
+    font-size: 4em;
+}
+
+p{
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.p2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.boton1{
+    background-color: aqua;
+    margin: 50px;
+    padding: 15px 28px;
+    display: inline-block;
+}
+#caja{
+    margin: 1em 0;
+}
+.a1{
+    margin-top: 100px;
+}
+.contenedor2{
+   background-color: antiquewhite;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+.imagen2{
+    width: 70px;
+    margin-left: 50px;
+    text-align: center;
+}
+.div1{
+    background-color: brown;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-right: 100px;
+    height: 300px ;
+}
+.div2{
+    background-color: brown;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-right: 100px;
+    height: 300px ;
+}
+.div3{
+    background-color: brown;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-right: 100px;
+    height: 300px ;
+}
+.div4{
+    background-color: brown;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-right: 100px;
+    height: 300px ;
+    
+
+}
+.titulo{
+    
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+.P1{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+.subtitulo{
+   margin-left: 50px;
+   margin-right: 0px;
+}
+
+.M1{
+    display: flex;
+    margin-left: 50px;
+}
+.subtitulo3{
+    margin-left: 50px;
+    margin-right: 0px;
+ }
+ .M2{
+    display: flex;
+    margin-left: 50px;
+ }
+ .caja1{
+    background-color: gray;
+    margin-bottom: 50px;
+  
+
+ }
+ .f1{
+    margin-top: 50px;
+ }
+ .caja1 h3{
+    margin-top: 50px;
+   margin-left: 50px;
+   margin-bottom: 50px;
+ }
+ 
+ .M3{
+    display: flex;
+ }
+    
+ 
+ .imagen3{
+    width: 500px;
+    margin-left: 500px;
+    margin-bottom: 100px;
+    margin-right: 70px;
+    height: 500px;
+    
+ }
+ .m1{
+    display: flex;
+    margin-top: 100px;
+ }
+ .contenedor4{
+    background-color: rgb(227, 217, 227);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .t3{
+    text-align: center;
+    margin-bottom: 50px;
+ }
+ 
+ 

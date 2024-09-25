@@ -1,0 +1,86 @@
+.fondo{
+    background-image: url("img/imagen4.jpeg");
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+
+
+    
+}
+
+.btn{
+    background-color: blueviolet;
+    color: white;
+    
+}
+
+.container img{
+    width: 18%;
+    margin-top: 10em;
+}
+
+.navar{
+    background-color: white;
+}
+
+.color{
+    color: white;
+    background: blueviolet;
+    
+}
+
+.parte1{
+    height: 100%;
+}
+
+.card-body i{
+    font-size: 50px;
+}
+
+.color1{
+    color: blueviolet;
+}
+
+.color2{
+    color: rgb(255, 174, 0);
+}
+.color3{
+    color: lightblue;
+}
+
+.color4{
+    color: rgb(151, 202, 104);
+}
+
+.color5{
+    color: gray;
+}
+
+.color6{
+    color: blueviolet;
+}
+
+.carta1{
+    background: blueviolet;
+    color: white;
+    height: 100px;
+}
+
+.carta2{
+    background: rgb(255, 174, 0);
+    color: white;
+    height: 100px;
+}
+
+.carta3{
+    background:lightblue;
+    color: white;
+    height: 100px;
+}
+
+.mas img{
+    padding-top: 0px;
+}

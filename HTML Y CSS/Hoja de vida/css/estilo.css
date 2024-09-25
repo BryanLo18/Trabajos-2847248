@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+nav{
+    background: rgb(1, 245, 253);
+    height: 3em;
+    text-shadow: 1px 1px 5px black;
+    position: fixed;
+    width: 100%;
+
+}
+
+nav ul{
+    line-height: 3em;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 40px;
+    
+
+}
+
+body{
+    text-align: center; /*Centrar todo texto que este en el body*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav li a {
+    text-decoration: none; /*quitar estilo por defecto*/
+    color: rgb(2, 2, 2); /* color de fuente*/
+    font-size: 20px; /* tamaño de la letra */
+}
+
+nav li a:hover{ /*cuando el puntero del mouse este sobre los  */
+    color: rgb(127, 127, 129); /* camniar color a */
+
+}
+header{
+    background-image: url(/img/dbz.jpeg); /* Imagen de fondo*/
+    background-repeat: no-repeat; /*evitar que se repita */
+    background-size: cover; /*cubrir toda la etiqueta con la img*/ 
+    padding-bottom: 2em;
+    padding-top: 4em;
+}
+
+#mifoto{
+    width: 20%; /* ancho*/
+    border-radius: 50%; /* redondear bordes*/
+    border: 5px rgb(0, 0, 0) solid;  /*border: ancho , color, estilo*/
+    box-shadow: 0px 0px 20px 10px rgb(5, 229, 218);
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Single Day', cursive;
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 4px rgb(5, 229, 218);
+}
+
+.email{
+    
+    color: rgb(0, 0, 0);
+    width: 30%;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Single Day', cursive;
+    text-shadow: 1px 1px 4px rgb(5, 229, 218);
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2em;
+}
+
+.tel{
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Single Day', cursive;
+    text-shadow: 1px 1px 4px rgb(5, 229, 218);
+    width: 30%;
+    margin: 0 auto;
+    font-size: 2em;
+
+}
+
+section{
+    box-shadow: 0px 0px 10px 2px rgb(5, 229, 218);
+    width: 70%;
+    margin: 2em auto; 
+    padding: 1em;
+}
+
+p{
+    margin: 1em;
+}
+
+section h2{
+    color: rgb(5, 229, 218);
+    text-shadow: 3px 3px 5px black;
+    border-bottom: black dashed;
+    margin: 2em 0;
+}
+
+.boton1, .boton2 {
+    border: 1px black solid;
+    padding: 0.5em 2em;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.boton1{
+    background: rgb(5, 229, 218);
+}
+.boton2{
+    background: rgb(5, 229, 218);
+}
+.boton1:hover{
+    background: rgb(127, 127, 129);
+    color: white;
+}
+    
+
+ 
+.boton2:hover{
+    background: rgb(127, 127, 129);
+    color: rgb(255, 255, 255);
+}
+
+#cajabotones{
+    margin: 1em 0;
+}
+
+article{
+    
+    width: 40%;
+    margin: 1em auto;
+    display: inline-block;
+    padding: 1em;
+    vertical-align: top;
+}
+
+img {
+    max-width: 100%;
+}
+h3{
+    margin-bottom: 1em;
+}
+
+figure{
+    display: inline-flex;
+}
