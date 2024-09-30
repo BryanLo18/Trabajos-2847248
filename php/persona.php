@@ -53,8 +53,8 @@
                 $valor_hora = (($sueldo_tec - ($sueldo_tec * 0.05)) / 160);
             }
     
-            if ($hora >= 160) {
-                $horas_extras = $hora - 160;
+            if ($total_horas >= 160) {
+                $horas_extras = $total_horas - 160;
                 $extras=$horas_extras*($valor_hora*1.5);
                 $total_sueldo=$impuesto+$extras;
             } else {
@@ -64,7 +64,7 @@
             }
            
             echo "<p>Empleado $ocupacion</p>";
-            echo "<p>Total de horas: $hora</p>";
+            echo "<p>Total de horas: $total_horas</p>";
             echo "<p>Horas extras: $horas_extras</p>";
             echo "<p>Pago horas extras: $extras</p>";
             echo "<p>Valor por hora: $valor_hora<p>";
