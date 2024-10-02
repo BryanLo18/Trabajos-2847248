@@ -43,18 +43,20 @@
         $sueldo_tec = 2000000;
         $ocupaciones = $_REQUEST['ocupacion'];
         $total_horas = $_REQUEST['horas'];
-        foreach ($ocupaciones as $ocupacion) {
+        $numero = $_REQUEST['num'];
+        for($i=0;$i<=$numero;$i++){
+           
             
-            if ($ocupacion === "Ingeniero") {
+            if ($ocupaciones[$i] == "Ingeniero") {
                 $impuesto=$sueldo_inge-($sueldo_inge*0.10);
                 $valor_hora = (($sueldo_inge - ($sueldo_inge * 0.10)) / 160);
             } else {
                 $impuesto=$sueldo_tec-($sueldo_tec*0.05);
-                $valor_hora = (($sueldo_tec - ($sueldo_tec * 0.05)) / 160);
+                $valor_horas = (($sueldo_tec - ($sueldo_tec * 0.05)) / 160);
             }
     
-            if ($total_horas >= 160) {
-                $horas_extras = $total_horas - 160;
+            if ($total_horas[$i] >= 160) {
+                $horas_extras = $horas - 160;
                 $extras=$horas_extras*($valor_hora*1.5);
                 $total_sueldo=$impuesto+$extras;
             } else {
@@ -62,9 +64,8 @@
                 $extras=0;
                 $total_sueldo=$impuesto;
             }
-           
-            echo "<p>Empleado $ocupacion</p>";
-            echo "<p>Total de horas: $total_horas</p>";
+            echo "<p>Empleado $ocupaciones[$i]</p>";
+            echo "<p>Total de horas: $horas[$i]</p>";
             echo "<p>Horas extras: $horas_extras</p>";
             echo "<p>Pago horas extras: $extras</p>";
             echo "<p>Valor por hora: $valor_hora<p>";
