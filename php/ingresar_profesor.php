@@ -7,20 +7,12 @@
     $apellido=$_POST['apellido'];
     $email=$_POST['email'];
     $edad=$_POST['edad'];
-    $nota1=$_POST['nota1'];
-    $nota2=$_POST['nota2'];
-    $nota3=$_POST['nota3'];
-
-
-
-    $promedio=($nota1+$nota2+$nota3)/3;
-    
     
 
+    
+    $conexion->query("INSERT INTO profesores(documento,nombre,apellido,email,edad) value ($documento,'$nombre','$apellido','$email',$edad)");
 
-    $conexion->query("INSERT INTO estudiante(documento,nombre,apellido,email,edad,promedio,estado) value ($documento,'$nombre','$apellido','$email',$edad,$promedio,'$estado')");
-
-    echo "El estudiante ha sido ingresado con exito";
+    echo "El profesor ha sido ingresado con exito";
 ?>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
