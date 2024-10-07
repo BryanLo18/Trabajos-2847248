@@ -10,6 +10,8 @@
     $nota1=$_POST['nota1'];
     $nota2=$_POST['nota2'];
     $nota3=$_POST['nota3'];
+    $grupo=$_POST['grupo'];
+    $profesor=$_POST['profesor'];
 
 
 
@@ -18,7 +20,7 @@
     
 
 
-    $conexion->query("INSERT INTO estudiante(documento,nombre,apellido,email,edad,promedio,estado) value ($documento,'$nombre','$apellido','$email',$edad,$promedio,'$estado')");
+    $conexion->query("INSERT INTO estudiante(documento,nombre,apellido,email,edad,promedio,grupo,profesor) value ($documento,'$nombre','$apellido','$email',$edad,$promedio,'$grupo','$profesor')");
 
     echo "El estudiante ha sido ingresado con exito";
 ?>

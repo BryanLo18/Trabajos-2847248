@@ -16,13 +16,22 @@
                 <a class="btn btn-primary" href="formulario_estudiante.php" role="button">Ingresar estudiante</a>
             </div>
             <div class="col">
-                <a class="btn btn-primary" href="consultar_estudiante.php" role="button">Consultar estudiantes</a>
+                <a class="btn btn-primary" href="consultar_estudiantes.php" role="button">Consultar estudiantes</a>
             </div>
             <div class="col">
                 <a class="btn btn-primary" href="formulario_profesor.php" role="button">Ingresar profesor</a>
             </div>
             <div class="col">
                 <a class="btn btn-primary" href="consultar_profesor.php" role="button">Consultar profesores</a>
+            </div>
+            <div class="col">
+                <a class="btn btn-primary" href="formulario_grupos.php" role="button">Ingresar grupo</a>
+            </div>
+            <div class="col">
+                <a class="btn btn-primary" href="consultar_grupos.php" role="button">Consultar grupos</a>
+            </div>
+            <div class="col">
+                <a class="btn btn-primary" href="consulta_indi.php" role="button">Consultar estudiante</a>
             </div>
         </div>
     </div>

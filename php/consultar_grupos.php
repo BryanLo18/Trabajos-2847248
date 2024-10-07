@@ -4,18 +4,16 @@
 <?php
 include_once('conexion_bd_estudiante.php');
 
-$consulta=$conexion->query("SELECT * from profesores");
+$consulta=$conexion->query("SELECT * from grupos");
 
 ?>
-<table class="table text-center">
+<table class="table justify-content-center aling-items-center">
     <thead>
         <tr>
             <th scope="col">#</th>
             <th scope="col">Nombre</th>
-            <th scope="col">Apellido</th>
-            <th scope="col">Documento</th>
-            <th scope="col">Email</th>
-            <th scope="col">Edad</th>
+            <th scope="col">Grado</th>
+            <th scope="col">Jefe de grupo</th>
         </tr>
     </thead>
     <tbody>
@@ -23,12 +21,10 @@ $consulta=$conexion->query("SELECT * from profesores");
     while($row=$consulta->fetch_array()){
     ?>
         <tr>
-            <td><?php echo $row['ID'];?></td>
+            <td><?php echo $row['id'];?></td>
             <td><?php echo $row['nombre'];?></td>
-            <td><?php echo $row['apellido'];?></td>
-            <td><?php echo $row['documento'];?></td>
-            <td><?php echo $row['email'];?></td>
-            <td><?php echo $row['edad'];?></td>
+            <td><?php echo $row['grado'];?></td>
+            <td><?php echo $row['jefe'];?></td>
         </tr>
         <?php
     }

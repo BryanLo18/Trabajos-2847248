@@ -24,7 +24,7 @@
                 </div>
                 <div class="col-6">
                     <label for="exampleFormControlInput1" class="form-label">Apellido</label>
-                    <input type="text"class="form-control" id="exampleFormControlInput1" name="apellido">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" name="apellido">
                 </div>
                 <div class="col-6">
                     <label for="exampleFormControlInput1" class="form-label">Email</label>
@@ -47,19 +47,43 @@
                     <input type="float" class="form-control" id="exampleFormControlInput1" name="nota3">
                 </div>
             </div>
+
             
-            <input type="submit" class="btn btn-primary" value="Ingresar">
+            <label for="">Grupos</label>
+            <select name="grupo" class="mt-2" id="">
+                <?php
+                include_once('conexion_bd_estudiante.php');
+        $consulta=$conexion->query("SELECT * FROM grupos");
+         while($row=$consulta->fetch_array()){
+            echo '<option value="'.$row['nombre'].'" <selected>'.$row['nombre'].'</option>';
+         }
+         ?>
+            </select>
+            <label for="">Grupos</label>
+            <select name="profesor" class="mt-2" id="">
+                <?php
+                include_once('conexion_bd_estudiante.php');
+        $consulta=$conexion->query("SELECT * FROM profesores");
+         while($row=$consulta->fetch_array()){
+            echo '<option value="'.$row['nombre'].'">'.$row['nombre'].'</option>';
+         }
+         ?>
+            </select>
+            <div class="col">
+            <input type="submit" class="btn btn-primary mt-3" value="Ingresar">
+            </div>
         </form>
     </div>
 
     <div class="container">
         <div class="row">
-            <div class="col justify-content-start">
+            <div class="col justify-content-start mt-3">
 
-                <a class="btn btn-primary" href="index.php" role="button">Volver</a>
+                <a class="btn btn-primary mt-3" href="index.php" role="button">Volver</a>
             </div>
         </div>
     </div>
+
 
 </body>
 
