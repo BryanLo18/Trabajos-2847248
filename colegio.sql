@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 03-10-2024 a las 23:28:33
+-- Tiempo de generación: 07-10-2024 a las 19:15:32
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -34,17 +34,15 @@ CREATE TABLE `estudiante` (
   `apellido` varchar(255) NOT NULL,
   `email` varchar(100) NOT NULL,
   `edad` int(10) NOT NULL,
-  `promedio` float NOT NULL,
-  `estado` varchar(20) NOT NULL
+  `promedio` float NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Volcado de datos para la tabla `estudiante`
 --
 
-INSERT INTO `estudiante` (`id`, `documento`, `nombre`, `apellido`, `email`, `edad`, `promedio`, `estado`) VALUES
-(1, 1055, 'Bryan', 'Lo', 'ssdsd@gmail.com', 18, 0, 'No aprobado'),
-(2, 1089098404, 'Bryan', 'Lopez', 'ssdsd@gmail.com', 18, 4.16667, 'Aprobado');
+INSERT INTO `estudiante` (`id`, `documento`, `nombre`, `apellido`, `email`, `edad`, `promedio`) VALUES
+(10, 45518766, 'Bryan', 'Lopez', 'bryanlo@gmail.com', 18, 4);
 
 -- --------------------------------------------------------
 
@@ -93,7 +91,7 @@ ALTER TABLE `profesores`
 -- AUTO_INCREMENT de la tabla `estudiante`
 --
 ALTER TABLE `estudiante`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT de la tabla `profesores`
