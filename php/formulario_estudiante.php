@@ -65,7 +65,7 @@
                 include_once('conexion_bd_estudiante.php');
         $consulta=$conexion->query("SELECT * FROM profesores");
          while($row=$consulta->fetch_array()){
-            echo '<option value="'.$row['nombre'].'">'.$row['nombre'].'</option>';
+            echo '<option value="'.$row['id'].'">'.$row['nombre'].'</option>';
          }
          ?>
             </select>
