@@ -7,7 +7,7 @@
 </head>
 <body>
 <form action="consul_indi_inven.php">
-        <label for="">cONSULTAR ID</label>
+        <label for="">CONSULTAR ID</label>
         <input type="text" name="id">
         <input type="submit" value="Buscar">
     </form>
