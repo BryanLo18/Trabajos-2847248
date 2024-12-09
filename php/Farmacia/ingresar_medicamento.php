@@ -7,8 +7,10 @@ $tipo=$_POST['tipo'];
 $codigo=$_POST['codigo'];
 $precio=$_POST['precio'];
 $labora=$_POST['laboratorio'];
+$fecha=date('Y-m-d');
 
-$conexion->query("INSERT INTO medicamento(nombre,tipo,codigo,precio,laboratorio) value('$nombre','$tipo',$codigo,$precio,'$labora')");
+
+$conexion->query("INSERT INTO medicamento(nombre,tipo,codigo,precio,laboratorio,fecha) value('$nombre','$tipo',$codigo,$precio,'$labora','$fecha')");
 
  echo "Medicamento ingresado con exito";
 ?>

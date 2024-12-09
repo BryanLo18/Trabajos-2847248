@@ -1,0 +1,17 @@
+.dropdown-toggle::after{
+    display: none;
+}
+
+.flecha{
+    display: none;
+}
+
+#raya{
+    border-bottom: none;
+}
+
+.boton-color{
+    background-color: rgb(255, 254, 254);
+   
+}
+ 
